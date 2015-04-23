@@ -121,7 +121,7 @@ int main(){
 			
 			printf("%x\t%x%c %c%c\t%s\n", address, opcode1, opcode2, opcode3, opcode4, str);
 			fputs(("%x\t%x\t%s", address, opcode1, str), listing);
-			fputs(opcode1, object);
+			//fputs(opcode1, object);
 		}
 	}
 	
